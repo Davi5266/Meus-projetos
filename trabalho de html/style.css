@@ -1,0 +1,80 @@
+body{
+    color: black;
+    background-color: purple;
+    font-size: 1.6em;
+    margin: 5;
+    padding: 5;
+    flex-wrap: wrap;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox-container-column{
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#divprincipal{
+    background-color: gray;
+}
+
+#menu{
+    background-color: orange;
+    width: 200px;
+    border: solid 5px black;
+}
+
+h1{
+    /*border: 5px solid;*/
+      padding: 10px;
+      text-align: center;    
+}
+
+div{
+    border: 2px solid black;
+    padding:5px;
+}
+
+#rodape{
+    bottom: 0;
+    position: relative;
+    background-color: gray;
+    width: 25cm;
+    text-align: center;
+    left: 430px;
+}
+
+#divdeconteudo{
+    flex-grow: 1;
+}
+
+#conteúdo{
+    flex-grow: 1;
+    width: 200px;
+    background-color: white;
+    font-size: 75%;
+}
+
+#divBusca{
+  background-color:black;
+  border:solid 1px;
+  border-radius:15px;
+  width:189px;
+}
+
+#txtBusca{
+  /*float:left;*/
+  background-color:transparent black;
+  padding-left:5px;
+  font-style:italic;
+  font-size:15px;
+  border:solid black;
+  height:32px;
+  width:170px;
+}
